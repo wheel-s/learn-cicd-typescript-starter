@@ -1,4 +1,6 @@
 import { describe, expect, test } from "vitest";
+import { getAPIKey } from "../api/auth.js";
+
 
 const person = {
   isActive: true,
@@ -14,3 +16,10 @@ describe("person", () => {
     expect(person.isActive).toBeTruthy();
   });
 });
+
+
+describe("test auth function", ()=>{
+  test("getAPIKey", ()=> {
+    expect (getAPIKey({'authorization':'ApiKey testtoken'})).toEqual("testtoken")
+  })
+})
