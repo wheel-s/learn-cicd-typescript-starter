@@ -1,5 +1,5 @@
 
-[readme badge](https://github.com/wheel-s/learn-cicd-typescript-starter/actions/workflows/.github/workflows/ci.yml/badge.svg)
+[readme badge](https://github.com/wheel-s/learn-cicd-typescript-starter/actions/workflows/ci.yml/badge.svg)
 
 # learn-cicd-typescript-starter (Notely)
 
